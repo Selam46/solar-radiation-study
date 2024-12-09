@@ -12,19 +12,25 @@ The project includes a Streamlit dashboard to visualize and interact with the so
 
 ## Set up Instructions 
 Step 1: Clone the Repository
+
 git clone https://github.com/Selam46/solar-radiation-study.git
+
 cd solar-radiation-study
+
 Step 2: Install Dependencies
+
 Create a virtual environment and install required packages:
 
-
-# Create a virtual environment
 python3 -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
 
-# Install dependencies
+source venv/bin/activate    # On Windows: venv\Scripts\activate
+
+Install dependencies
+
 pip install -r requirements.txt
 
 Step 3: Run Preprocessing Scripts
+
 Run the preprocessing module to clean and prepare data:
+
 python app/main.py
